@@ -31,7 +31,7 @@ void setup(){
 }
 
 void loop(){
-  if(button.isPressed()){
+  if(button.uniquePress()){
 	digitalWrite(13,HIGH);
   }else{
 	digitalWrite(13,LOW);
